@@ -10,14 +10,12 @@ use LogicException;
 class InvoiceController extends Controller
 {
     private InvoiceServiceInterface $invoiceService;
-    private ApprovalFacadeInterface $approvalFacade;
 
     public function __construct(
         InvoiceServiceInterface $invoiceService,
         ApprovalFacadeInterface $approvalFacade
     ) {
         $this->invoiceService = $invoiceService;
-        $this->approvalFacade = $approvalFacade;
     }
 
     public function show($id)
