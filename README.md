@@ -4,7 +4,6 @@
 ---
 Please create your own repository and make it public or invite us to check it.
 
-
 <table>
 <tr>
 <td>
@@ -70,3 +69,10 @@ Unit tests in plus.
   ```
   docker compose exec workspace bash
   ``` 
+## How to test:
+These are the routes available:
+- '/invoices/{id}';
+- '/invoices/{id}/approve'
+- '/invoices/{id}/reject'
+
+You can use your browser for the GET invoices endpoint and Postman for your POST requests.

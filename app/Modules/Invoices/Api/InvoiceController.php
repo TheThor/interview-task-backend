@@ -2,14 +2,10 @@
 
 namespace App\Modules\Invoices\Api;
 
-use App\Domain\Enums\StatusEnum;
 use App\Infrastructure\Controller;
 use App\Modules\Approval\Api\ApprovalFacadeInterface;
-use App\Modules\Approval\Api\Dto\ApprovalDto;
 use App\Modules\Invoices\Application\InvoiceServiceInterface;
-use http\Env\Response;
 use LogicException;
-use Ramsey\Uuid\Uuid;
 
 class InvoiceController extends Controller
 {

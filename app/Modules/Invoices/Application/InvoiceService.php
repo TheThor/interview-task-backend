@@ -2,7 +2,6 @@
 
 namespace App\Modules\Invoices\Application;
 
-use App\Domain\Enums\StatusEnum;
 use App\Modules\Approval\Api\ApprovalFacadeInterface;
 use App\Modules\Approval\Api\Dto\ApprovalDto;
 use App\Modules\Invoices\Domain\Models\Invoice;
