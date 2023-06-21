@@ -13,7 +13,6 @@ class InvoiceController extends Controller
 
     public function __construct(
         InvoiceServiceInterface $invoiceService,
-        ApprovalFacadeInterface $approvalFacade
     ) {
         $this->invoiceService = $invoiceService;
     }
